@@ -10,6 +10,7 @@ def sample_user(email='testuser@emaildomain.com', password='test1234'):
 
 
 class ModelTests(TestCase):
+    """Test database models"""
 
     def test_create_user_with_email_successful(self):
         """Test creating a new user with an email is successful"""

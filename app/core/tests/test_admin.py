@@ -4,6 +4,7 @@ from django.urls import reverse
 
 
 class AdminSiteTests(TestCase):
+    """Test Admin Functions"""
 
     def setUp(self):
         email1 = 'admin@emaildomain.com'
